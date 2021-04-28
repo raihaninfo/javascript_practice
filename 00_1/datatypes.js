@@ -49,3 +49,6 @@ var Abc
 var xyz = null
 
 console.log(Abc, xyz)
+
+var hex = 0xff
+console.log(hex)
