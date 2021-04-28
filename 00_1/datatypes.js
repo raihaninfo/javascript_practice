@@ -34,3 +34,18 @@ var str1 = String(40)
 
 console.log(name2, str1)
 
+// *******boolean datatype**********
+
+var b1 = true
+var b2 = false
+var b3 = Boolean(true)
+
+console.log(b1, b2, b3)
+
+
+// *******Null and undefined datatype**********
+
+var Abc
+var xyz = null
+
+console.log(Abc, xyz)
