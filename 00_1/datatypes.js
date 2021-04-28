@@ -15,8 +15,16 @@
         3. function 
 
 */
-
+// number datatype
 var num1 = 23
 var num2 = 3.4
 
 console.log(num1+num2)
+// infinity
+console.log(1/0)
+// NaN 
+console.log("Abc" * 44)
+
+
+// string datatype
+
