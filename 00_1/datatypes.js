@@ -15,7 +15,7 @@
         3. function 
 
 */
-// number datatype
+//********* */ number datatype***********
 var num1 = 23
 var num2 = 3.4
 
@@ -26,5 +26,11 @@ console.log(1/0)
 console.log("Abc" * 44)
 
 
-// string datatype
+// *******string datatype**********
+var name = "Md Abu Raihan"
+var name2 = 'Raihan'
+var name3 = `Md Abu Raihan`
+var str1 = String(40)
+
+console.log(name2, str1)
 
