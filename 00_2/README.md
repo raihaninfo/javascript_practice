@@ -1,1 +1,4 @@
-# Chapter two Logic & Conditions
+# Chapter Two Logic & Conditions
+- if else conditions
+- switch case condition
+- etc.
