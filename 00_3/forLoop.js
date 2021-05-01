@@ -1,4 +1,4 @@
-// for loop
+// for Loop 
 var i = 0;
 for( i; i <=100; i++){
     if(i %2 ==1){
