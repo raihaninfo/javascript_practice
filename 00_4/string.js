@@ -6,7 +6,9 @@ var str2 = String("something");
 
 console.log(str, str2);
 
-// Escape Notaation
+// Escape Notation
 
 var str3 = "This is a \"String\" ";
-console.log(str3)
+var str4 = "This is a \nString ";
+var str5 = "This is a \tString ";
+console.log(str3, str4, str5)
