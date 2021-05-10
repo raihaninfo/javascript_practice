@@ -5,12 +5,12 @@ var fine = 10;
 var isFound = false;
 
 for (var i = 0 ; i < arr.length; i ++){
-    if (arr[i]==fine){
+    if (arr[i]== fine){
         console.log("Data Found")
         isFound = true;
     }
 }
 
 if (!isFound){
-    console.log("Data Not Found")
+    console.log("Data Not Found.")
 }
