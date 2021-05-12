@@ -1,7 +1,7 @@
 var arr = [2, 3, 4, 5, 6]
 var arr2 = [32, 34, 65]
 
-// join
+// join join
 console.log(arr.join(", "));
 
 //fill
