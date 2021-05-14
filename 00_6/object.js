@@ -18,3 +18,14 @@ obj2.a = 20;
 obj2.b = 30;
 
 console.log(obj2)
+
+
+var poi = {
+    f: 39,
+    g: "Today is Eid-ul Fitor",
+}
+
+console.log(poi.f)
+console.log(poi["g"])
+console.log(obj2.b)
+delete obj2.b
