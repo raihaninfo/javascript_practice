@@ -4,4 +4,3 @@ function sqr(n){
 }
 
 console.log(sqr(6))
-
