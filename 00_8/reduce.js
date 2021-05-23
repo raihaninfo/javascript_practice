@@ -1,13 +1,13 @@
 var arr = [2, 3, 4, 5]
-// var sum = arr.reduce(function (prev, curr) {
-//     return prev + curr
-// }, 100)
+var sum = arr.reduce(function (prev, curr) {
+    return prev + curr
+}, 100)
 
-// var max = arr.reduce(function (prev, curr) {
-//     return Math.max(prev, curr)
-// })
+var max = arr.reduce(function (prev, curr) {
+    return Math.max(prev, curr)
+})
 
-// console.log(sum, max)
+console.log(sum, max)
 
 function myReduce(arr, cd,acc) {
     for (var i = 0; i < arr.length; i++) {
