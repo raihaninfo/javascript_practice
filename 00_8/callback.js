@@ -1,4 +1,4 @@
-// 
+// Call back function
 
 function sample(a, b, cb){
     var c = a +b
