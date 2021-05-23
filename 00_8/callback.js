@@ -1,9 +1,9 @@
 // 
 
-function sample(a, b){
+function sample(a, b, cb){
     var c = a +b
     var d = a -b
-    var result = sum(c, d)
+    var result = cb(c, d)
     return result
 
 }
@@ -12,4 +12,9 @@ function sum(a, b){
     return a+b
 }
 
-console.log(sample(6,5))
+console.log(sample(6,5,sum))
+var result2 = (sample(6,5,function(c, d){
+    return c - d
+}))
+
+console.log(result2)
