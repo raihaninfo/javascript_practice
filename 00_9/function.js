@@ -1,5 +1,6 @@
 abc()
-function abc(){
+
+function abc() {
     console.log("I am Function")
 }
 
