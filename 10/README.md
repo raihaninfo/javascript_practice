@@ -39,8 +39,10 @@ Class is Just a factory to create multiple Object without code Duplication.
 
 ## What is Inheritance ?
 
-- Inheritance is one of the core concepts of object-oriented programming (OOP) languages. it is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.
+- Inheritance is one of the core concepts of object-oriented programming (OOP) languages. it is a mechanism where you can derive a class from another class for a hierarchy of classes that share a set of attributes and methods.
 
 ## What is Polymorphism ?
 
--
+- The word polymorphism is used in various contexts and describes situations in which something occurs in several different forms. in computer science, it describes the concept that objects of different types can be accessed through the same interface. Each type can provide its own, independent implementation of this interface. it is one of the core concepts of object-oriented programming(OOP)
+
+
