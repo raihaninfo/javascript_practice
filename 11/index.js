@@ -4,6 +4,9 @@ var rect = {
 
     draw: function () {
         console.log("i am a rectangle")
+        this.printProperties()
+    },
+    printProperties: function(){
         console.log("My width is " + this.width + " And Height " + this.height)
     }
 }
