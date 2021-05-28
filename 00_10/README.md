@@ -13,3 +13,5 @@ Everything which Takes Multiple Properties to Describe is an Object
             Age: 21
         }
 
+# What is Class in OOP.
+Class is Just a factory to create multiple Object without code Duplication.
