@@ -4,7 +4,7 @@ function test() {
     var x = 45
     console.log(x)
 
-    function nested(){
+    function nested() {
         var y = 65
         console.log(x)
     }
