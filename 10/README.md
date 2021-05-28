@@ -15,3 +15,14 @@ Everything which Takes Multiple Properties to Describe is an Object
 
 # What is Class in OOP.
 Class is Just a factory to create multiple Object without code Duplication.
+
+## Object Oriented is just a Theory.
+### OOP Stands on Four Main Pillar.
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. Polymorphism
+
+## What is Abstraction ?
+- Abstraction is one of the key concepts of object oriented programming (OOP) languages. Its main goal is to handle complexity by hiding unnecessary details from the user. That enables the user to implement more complex logic on top of the provided abstraction without understanding or even thinking about all the hidden complexity.
+
