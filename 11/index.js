@@ -56,6 +56,7 @@ function change(n) {
     n = n + 100
     console.log(n)
 }
+
 change(n)
 console.log(n)
 
