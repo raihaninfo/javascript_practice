@@ -1,6 +1,7 @@
 import '../styles/index.scss'
 
-let add = (a, b) => {
-    return a + b
-};
+function sum(...rest){
+    return rest.reduce((a,b)=>a+b)
+}
 
+console.log(sum(1,3,4,5,6,4))
