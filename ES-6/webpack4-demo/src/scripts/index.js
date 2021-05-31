@@ -6,11 +6,10 @@ let obj = {
     c: 4
 }
 
-console.log(Object.entries(obj))
+let s1 = Symbol()
+let s2 = Symbol('test')
 
-let object2 = [
-    ['A', 20],
-    ['B', 43]
-]
+console.log(s1, s2)
 
-console.log(Object.fromEntries(object2))
+console.log(s1 === s2)
+
