@@ -1,7 +1,16 @@
 import '../styles/index.scss'
 
-function sum(...rest){
-    return rest.reduce((a,b)=>a+b)
+let obj = {
+    a: 20,
+    b: 43,
+    c: 4
 }
 
-console.log(sum(1,3,4,5,6,4))
+console.log(Object.entries(obj))
+
+let object2 = [
+    ['A', 20],
+    ['B', 43]
+]
+
+console.log(Object.fromEntries(object2))
