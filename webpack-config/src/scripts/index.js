@@ -1,9 +1,10 @@
-// let set = new Set([1, 2, 3])
-let set = new Set([1,2,3])
-set.add(5)
-set.add(6)
-set.add(1)
-set.add(2)
+// Map
 
-console.log(set)
-console.log(set.size)
+let map = new Map([
+    ['a', 10],
+    ['b', 20],
+    ['c', 50]
+])
+
+console.log(map.size)
+console.log(map)
