@@ -1,19 +1,14 @@
+const xhr = new XMLHttpRequest()
+xhr.open('get', 'https://jsonplaceholder.typicode.com/users')
 
-class Rectangle {
-    constructor(width, height) {
-        this.width = width
-        this.height = height
-    }
-    name = "raihan"
-    draw() {
-        console.log('Drawing...')
-    }
-
-    test() {
-        console.log(323)
+xhr.onreadystatechange = function (e) {
+    if (xhr.readyState == 4) {
+        if (xhr.status == 200) {
+            console.log(xhr.response)
+        } else {
+            console.log(xhr.status)
+        }
     }
 }
 
-let rect1 = new Rectangle(23, 45)
-console.log(rect1)
-console.log(rect1.test())
+xhr.send()
