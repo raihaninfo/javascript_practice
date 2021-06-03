@@ -1,10 +1,12 @@
-// Map
+class Rectangle {
+    constructor(width, height) {
+        this.width = width
+        this.height = height
+    }
+    draw() {
+        console.log('Drawing...')
+    }
+}
 
-let map = new Map([
-    ['a', 10],
-    ['b', 20],
-    ['c', 50]
-])
-
-console.log(map.size)
-console.log(map)
+let rect1 = new Rectangle(23, 45)
+console.log(rect1)
