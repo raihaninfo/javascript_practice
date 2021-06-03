@@ -1,24 +1,29 @@
+let li = createElement('li', 'list-group-item', 'Four')
+
+let li2 = createElement('li', 'list-group-item' ,'Five')
+
 let list = document.getElementById('list')
-console.log(list)
+list.appendChild(li)
 
-// let parent = list.parentElement
-// console.log(parent)
+let list2 = document.getElementById('list')
+list.appendChild(li2)
 
-// let children = list.children
-// console.log(children)
 
-// let li = document.querySelector('li')
-// console.log(li)
 
-// console.log(list.firstElementChild)
-// console.log(list.lastElementChild)
+let p1 = createElement('p', 'lead', 'my name is riahan')
 
-let listitem = document.getElementsByTagName('li')
+let div = createElement('div')
 
-// let listitems = Array.from(listitem)
-let listitems = [...listitem]
+document.getElementsByClassName('container')
 
-listitems.forEach((li, ind)=>{
-    let text = li.innerHTML
-    li.innerHTML= `(${ind + 1}) ${text}`
-})
+function createElement(tagName,className, innerHtml) {
+    let tag = document.createElement('tagname')
+    tag.innerHTML = innerHtml || ''
+    tag.className = className || ''
+    return tag
+}
+
+function append(parend, chilren){
+    chilren.forEach(child =>parent.appendChild(child))
+}
+
