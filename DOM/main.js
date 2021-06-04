@@ -1,16 +1,19 @@
-let li = document.createElement('li');
+function createEl(tagName, className2, innarHtml){
+    let tag = document.createElement(tagName)
+    tag.className = className2
+    tag.innerHTML = innarHtml
+    return tag
+}
 
-li.className = 'list-group-item';
-li.innerHTML = 'Four'
+let four = createEl('ul', 'list-group-item', 'Four')
+let five = createEl('ul', 'list-group-item', 'Five')
+let six = createEl('ul', 'list-group-item', 'Six')
+
+
+let ptag = createEl('p', 'text-center', 'my name is raihan')
+
 
 let list = document.getElementById('list')
-
-list.appendChild(li)
-
-let pra = document.createElement('div');
-pra.innerHTML = 'my name is raihan, i am web developer from bangladesh';
-
-let div = document.getElementById('sec')
-div.appendChild(pra)
-
-console.log(pra)
+list.appendChild(four)
+list.appendChild(five)
+list.appendChild(six)
