@@ -8,8 +8,6 @@ list.appendChild(li)
 let list2 = document.getElementById('list')
 list.appendChild(li2)
 
-
-
 let p1 = createElement('p', 'lead', 'my name is riahan')
 
 let div = createElement('div')
@@ -23,7 +21,6 @@ function createElement(tagName,className, innerHtml) {
     return tag
 }
 
-function append(parend, chilren){
-    chilren.forEach(child =>parent.appendChild(child))
-}
-
+// function append(parend, chilren){
+//     chilren.forEach(child =>parent.appendChild(child))
+// }
