@@ -1,26 +1,16 @@
-let li = createElement('li', 'list-group-item', 'Four')
+let li = document.createElement('li');
 
-let li2 = createElement('li', 'list-group-item' ,'Five')
+li.className = 'list-group-item';
+li.innerHTML = 'Four'
 
 let list = document.getElementById('list')
+
 list.appendChild(li)
 
-let list2 = document.getElementById('list')
-list.appendChild(li2)
+let pra = document.createElement('div');
+pra.innerHTML = 'my name is raihan, i am web developer from bangladesh';
 
-let p1 = createElement('p', 'lead', 'my name is riahan')
+let div = document.getElementById('sec')
+div.appendChild(pra)
 
-let div = createElement('div')
-
-document.getElementsByClassName('container')
-
-function createElement(tagName,className, innerHtml) {
-    let tag = document.createElement('tagname')
-    tag.innerHTML = innerHtml || ''
-    tag.className = className || ''
-    return tag
-}
-
-// function append(parend, chilren){
-//     chilren.forEach(child =>parent.appendChild(child))
-// }
+console.log(pra)
