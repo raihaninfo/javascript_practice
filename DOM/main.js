@@ -21,5 +21,5 @@ list.appendChild(six)
 
 setTimeout(() => {
     list.lastChild.style.background = 'red';
-    list.lastChild.style.color = 'black';
+    list.lastChild.style.background = 'red';
 }, 5000);
