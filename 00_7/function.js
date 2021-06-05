@@ -11,3 +11,8 @@ function funcName(){
 }
 
 funcName()
+
+function sum(...arg){
+    console.log(arg.length)
+}
+sum(2,3,4,5,5)
