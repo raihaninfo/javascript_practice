@@ -1,4 +1,4 @@
-function createEl(tagName, className2, innarHtml){
+function createEl(tagName, className2, innarHtml) {
     let tag = document.createElement(tagName)
     tag.className = className2
     tag.innerHTML = innarHtml
@@ -17,3 +17,9 @@ let list = document.getElementById('list')
 list.appendChild(four)
 list.appendChild(five)
 list.appendChild(six)
+
+
+setTimeout(() => {
+    list.lastChild.style.background = 'red';
+    list.lastChild.style.color = 'black';
+}, 5000);
