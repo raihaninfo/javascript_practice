@@ -19,7 +19,11 @@ list.appendChild(five)
 list.appendChild(six)
 
 
-setTimeout(() => {
-    list.lastChild.style.background = 'red';
-    list.lastChild.style.background = 'red';
-}, 5000);
+// setTimeout(() => {
+//     list.lastChild.style.background = 'red';
+//     list.lastChild.style.background = 'red';
+// }, 5000);
+
+let lastItem = list.lastChild.cloneNode(true)
+lastItem.innerHTML = 'Eight'
+list.appendChild(lastItem)
