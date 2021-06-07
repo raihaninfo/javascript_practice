@@ -27,3 +27,14 @@ list.appendChild(six)
 let lastItem = list.lastChild.cloneNode(true)
 lastItem.innerHTML = 'Eight'
 list.appendChild(lastItem)
+
+// // console.log(list.getAttributeNames())
+// console.log(list.getAttributeNode('class'))
+// console.log(list.getAttribute('id'))
+
+// lastItem.className = 'text-dark'
+
+let attr = document.createAttribute('title')
+attr.value = 'I am title'
+
+lastItem.setAttributeNode(attr)
