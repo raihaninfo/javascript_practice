@@ -19,14 +19,14 @@ btn.addEventListener('click', function (e) {
 })
 
 
-let box = document.getElementById('box')
-box.addEventListener('mousemove', function (e) {
-    document.getElementById('x-value').innerHTML = e.clientX
-    document.getElementById('y-value').innerHTML = e.clientY
-    if (e.clientY == 400 || e.clientX == 400) {
-        alert('Your position 400')
-    }
-})
+// let box = document.getElementById('box')
+// box.addEventListener('mousemove', function (e) {
+//     document.getElementById('x-value').innerHTML = e.clientX
+//     document.getElementById('y-value').innerHTML = e.clientY
+//     if (e.clientY == 400 || e.clientX == 400) {
+//         alert('Your position 400')
+//     }
+// })
 
 
 // remove list in click
