@@ -9,9 +9,12 @@ let btn = document.getElementById('btn')
 // btn.onclick = function(e){
 //     console.log(e)
 // }
+let list = document.getElementById('list')
 
 btn.addEventListener('click', function (e) {
-    console.log(e)
+    let item = list.lastElementChild.cloneNode(true)
+    item.innerHTML = 'Newly Created Item'
+    list.appendChild(item)
 })
 
 let box = document.getElementById('box')
