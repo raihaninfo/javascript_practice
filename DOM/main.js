@@ -23,6 +23,7 @@ let checkedSkills = [];
     })
 })
 
+// output print
 function outputSkills(parent, skills) {
     let result = ''
     skills.forEach((skill, index) => {
