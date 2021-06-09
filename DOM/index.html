@@ -18,49 +18,34 @@
 <body>
   <h1 id="title" class="text-center">Introduction to DOM</h1>
   <div class="container">
-    <ul id="list" class="list-group my-5">
-      <li class="list-group-item">One</li>
-      <li class="list-group-item">Two</li>
-      <li id="tree" class="list-group-item">Three</li>
-    </ul>
 
-    <!-- 
-    <div style="height: 100px; width:100%;" class="box my-5 bg-info" id="box">
-      <p>( <span id="x-value">0</span>, <span id="y-value">0</span> )</p>
-    </div> -->
-
-    <div class="form">
-      <label for="name">what is your name</label>
-      <input type="text" class="form-control" name="name" id="name" placeholder="Enter Your Name">
-      <p id="showName"></p>
-    </div>
-
-    <div class="my-5">
-      <label>choise Your skills</label>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="skills" id="gridCheck1" value="Javascript">
-        <label for="gridCheck1">JavaScript</label>
+    <form id="form">
+      <div class="mb-3">
+        <label for="name" class="form-label">What is your Name</label>
+        <input type="name" name="name" placeholder="Enter Your name" class="form-control" id="name"
+          aria-describedby="emailHelp">
       </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="skills" id="gridCheck2" value="Python">
-        <label for="gridCheck2">Python</label>
+      <div class="mb-3">
+        <label for="email" class="form-label">What is your Email</label>
+        <input type="email" name="email" placeholder="Enter Your Email" class="form-control" id="email"
+          aria-describedby="emailHelp">
       </div>
-
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="skills" id="gridCheck3" value="C Programming">
-        <label for="gridCheck3">C Programming</label>
+      <div class="mb-3">
+        <label for="password" class="form-label">What is Your Password</label>
+        <input type="password" placeholder="Your Password" name="password" class="form-control" id="password">
       </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="skills" id="gridCheck4" value="Java Programming">
-        <label for="gridCheck4">Java Programming</label>
+      <div class="mb-3 form-group">
+        <label for="exampleInputPassword1" class="form-label">What is Your cuntry</label>
+        <select class="form-select" name="cuntry">
+          <option selected>Select your cuntry</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="India">India</option>
+          <option value="Pakistan">Pakistan</option>
+          <option value="Nepal">Nepal</option>
+        </select>
       </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" name="skills" id="gridCheck5" value="Go Programming">
-        <label for="gridCheck5">Go Programming</label>
-      </div>
-      <p><strong>Selected skills</strong> <span id="result"></span></p>
-    </div>
-
+      <button name="submit" type="submit" id="submit" class="btn btn-primary">Submit</button>
+    </form>
 
 
   </div>
@@ -72,6 +57,7 @@
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
   <script src="main.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
