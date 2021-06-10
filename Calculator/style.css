@@ -1,13 +1,13 @@
 body{
     background-color: #deeeea;
 }
-
+/* table style */
 table{
     width: 100%;
     text-align: center;
 }
+/* button style */
 .btnSty{
-
     background-color: #deeeea;
     width: 100%;
     height: 55px;
@@ -20,6 +20,7 @@ table{
 
 }
 
+ /* output screen style */
 #screen{
     background-color: rgba(50, 50, 50, 0.1);
     border: 1px solid rgba(50, 50, 50, 0.3);
