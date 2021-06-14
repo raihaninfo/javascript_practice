@@ -23,6 +23,21 @@ window.onload = function () {
         getWeatherData()
     })
 
+    axios.get('/api/history')
+        .then(({
+            data
+        }) => {
+            if (data.length > 0) {
+                updateHistory(data)
+            } else {
+                historyElm.innerHTML = 'there is No history'
+            }
+        })
+        .catch(e => {
+            console.log(e)
+            alert('Error Occurred')
+        })
+
     cityInput.addEventListener('keypress', function (e) {
         if (e.key == 'Enter') {
             if (e.target.value) {
@@ -71,4 +86,8 @@ function setWeather(weather) {
     temp.innerHTML = weather.temp
     pressure.innerHTML = weather.pressure
     humidity.innerHTML = weather.humidity
+}
+
+function updateHistory(weather){
+    
 }
