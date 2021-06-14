@@ -22,6 +22,17 @@ window.onload = function () {
     }, e => {
         getWeatherData()
     })
+
+    cityInput.addEventListener('keypress', function(e){
+        if(e.key == 'Enter'){
+            if(e.target.value){
+                getWeatherData(e.target.value)
+                e.target.value = ''
+            }else{
+                alert('Please Enter A Valid City Name')
+            }
+        }
+    })
 }
 
 function getWeatherData(city = DEFAULT_CITY, coords) {
