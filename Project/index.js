@@ -20,7 +20,7 @@ app.use('/api/history', require('./api/route'));
 const PORT = process.env.PORT || 4444
 
 app.listen(PORT, () => {
-    console.log('App is Running on PORT' + PORT)
+    console.log('App is Running on PORT' + ' ' + PORT)
     mongoose.connect('mongodb://localhost:27017/weather-api', {
         useNewUrlParser: true,
         useUnifiedTopology: true

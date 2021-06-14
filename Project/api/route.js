@@ -3,7 +3,7 @@ const History = require('./History')
 
 route.get('/', (req, res) => {
     History.find()
-        .then(history=>{
+        .then(history => {
             res.status(200).json(history)
         })
         .catch(e => {
@@ -14,7 +14,7 @@ route.get('/', (req, res) => {
         })
 })
 
-router.post('/', (req, res) => {
+route.post('/', (req, res) => {
     let history = new History(req.body)
     history.save()
         .then(() => History.find())
