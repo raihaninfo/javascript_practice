@@ -23,12 +23,12 @@ window.onload = function () {
         getWeatherData()
     })
 
-    cityInput.addEventListener('keypress', function(e){
-        if(e.key == 'Enter'){
-            if(e.target.value){
+    cityInput.addEventListener('keypress', function (e) {
+        if (e.key == 'Enter') {
+            if (e.target.value) {
                 getWeatherData(e.target.value)
                 e.target.value = ''
-            }else{
+            } else {
                 alert('Please Enter A Valid City Name')
             }
         }
