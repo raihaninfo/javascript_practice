@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 4444
 
 app.listen(PORT, () => {
     console.log('App is Running on PORT' + ' ' + PORT)
-    mongoose.connect('mongodb://localhost:27017/weather-api', {
+    mongoose.connect('mongodb+srv://raihan:raihan@cluster0.uknw9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     });
