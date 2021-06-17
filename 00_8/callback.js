@@ -13,6 +13,8 @@ function sum(a, b){
 }
 
 console.log(sample(6,5,sum))
+
+// callback function
 var result2 = (sample(6,5,function(c, d){
     return c - d
 }))
