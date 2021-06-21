@@ -7,6 +7,6 @@
 console.log(str)
 
 let age = 22
-let name = 'Md Abu Raihan'
+let myName = 'Md Abu Raihan'
 
-console.log(`My name is ${name} and my age is ${age}`)
+console.log(`My name is ${myName} and my age is ${age}`)
