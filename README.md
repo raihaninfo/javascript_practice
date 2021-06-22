@@ -1,4 +1,4 @@
-# javascript practice
+# javascript practice.
 # Javascript All You Need to Know
 ## This reposetory for javascript pactice.
 [![Facebook-Page][facebook-shield]][facebook-url]
@@ -6,7 +6,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
-
+<!--  -->
 
 [facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=555&logoColor=white
 [facebook-url]: https://facebook.com/raihan.mahmudi.50
