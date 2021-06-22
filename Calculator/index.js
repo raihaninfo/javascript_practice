@@ -1,3 +1,4 @@
+// js code
 let screen = document.getElementById('screen')
 button = document.querySelectorAll('button')
 let screenText = ''
