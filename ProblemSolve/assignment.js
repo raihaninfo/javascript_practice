@@ -13,7 +13,7 @@ function feetToMile(feet) {
     return feetRound
 }
 
-console.log(feetToMile(52525))
+console.log(feetToMile(58558))
 
 
 // wood calculator
