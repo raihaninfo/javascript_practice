@@ -21,16 +21,16 @@ console.log(feetToMile(58558))
  * আমরা ধরে নিচ্ছি একটি চেয়ারে ১ ছেপটি কাট লাগে, এবং একটি টেবিলে ২ ছেপটি এবং একটু খাটে ৫ ছেপটি, সেই হিসাবে আমাদের function কাজ করবে। 
  */
 
-function woodCalculator(chear, table, khat) {
-    let chearCl = chear * 1;
+function woodCalculator(chair, table, khat) {
+    let chairCl = chair * 1;
     let tableCl = table * 2;
     let khatCl = khat * 5;
-    return chearCl + tableCl + khatCl
+    return chairCl + tableCl + khatCl
 }
 
 console.log(woodCalculator(1, 3, 4))
 
-// brik calculator
+// Brick calculator
 
 
-// tiny freind
+// tiny friend 
