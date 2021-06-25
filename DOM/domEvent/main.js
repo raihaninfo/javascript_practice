@@ -6,5 +6,19 @@ header.addEventListener('click', function (e) {
     span.innerHTML = 'ey tumi click korle kano ?'
 })
 
-let body = document.getElementsByTagName('body')
+let body = document.getElementById('body')
 
+
+
+let btn = document.getElementById('btn')
+let btn2 = document.getElementById('btn2')
+
+btn.addEventListener('click', function () {
+    body.style.backgroundColor = 'black';
+    body.style.color = 'white'
+})
+
+btn2.addEventListener('click', function () {
+    body.style.backgroundColor = 'white';
+    body.style.color = 'black'
+})
