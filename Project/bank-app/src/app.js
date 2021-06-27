@@ -20,17 +20,14 @@ depositBtn.addEventListener('click', function () {
         depositValue = '0';
     }
     let depositFil = parseFloat(depositValue)
-
-    let = depositAmount = document.getElementById('deposit-amount').innerText
-    let = depositAmountBox = parseFloat(depositAmount)
-    let totalDeposit = depositFil + depositAmountBox;
-
-    document.getElementById('deposit-amount').innerText = totalDeposit;
+    updateSpam('deposit-amount', depositFil)
     document.getElementById('deposit-value').value = ''
+    updateSpam('total-balance', depositFil)
+})
 
-    let totalBalance = document.getElementById('total-balance').innerText;
+function updateSpam(id, depositFil) {
+    let totalBalance = document.getElementById(id).innerText;
     let totalBalanceNum = parseFloat(totalBalance)
     let totalBalanceSum = totalBalanceNum + depositFil;
-
-    document.getElementById('total-balance').innerText = totalBalanceSum;
-})
+    document.getElementById(id).innerText = totalBalanceSum;
+}
