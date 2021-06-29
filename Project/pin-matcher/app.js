@@ -45,9 +45,9 @@ submitBtn.addEventListener('click', e => {
         matched.style.display = 'none'
         tryNum.innerHTML > 0 && (tryNum.innerHTML -= 1)
         if (tryNum.innerHTML === '0') {
-            e.target.classList.add('disabledbtn')
+            e.target.classList.add('disabled-btn')
             for (item of button)
-                item.classList.add('disabledbtn')
+                item.classList.add('disabled-btn')
         }
     }
 })

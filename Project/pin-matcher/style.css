@@ -76,6 +76,11 @@ margin-right: -4px;
 border-radius: 10px;
 cursor: pointer;
 }
+
+.button:focus {
+    outline: none;
+}
+
 .blink-me {
 color: #E0B612;
 }
