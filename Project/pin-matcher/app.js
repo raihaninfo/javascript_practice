@@ -17,15 +17,12 @@ generatePin.addEventListener('click', () => {
 
     screen.value = ''
 
-    submitBtn.classList.remove('disabledbtn')
+    submitBtn.classList.remove('disabled-btn')
     for (item of button)
-        item.classList.remove('disabledbtn')
-
+        item.classList.remove('disabled-btn')
 })
 
 // pin matching section
-
-//let screenText = '';
 for (items of button) {
     items.addEventListener('click', function (e) {
         let buttonText = e.target.innerHTML
