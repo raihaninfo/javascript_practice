@@ -30,15 +30,10 @@ for (items of button) {
     items.addEventListener('click', function (e) {
         let buttonText = e.target.innerHTML
         if (buttonText == 'C') {
-            //screenText = '';
-            //screenText += buttonText = ''
-            //screen.value = screenText
             screen.value = ''
         } else if (buttonText == '&lt;') {
             screen.value = screen.value.slice(0, -1)
         } else {
-            //screenText += buttonText
-            //screen.value = screenText
             screen.value += buttonText
         }
     })
