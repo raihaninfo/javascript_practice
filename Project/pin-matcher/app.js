@@ -1,14 +1,30 @@
 // pin generate
-let generatePin = document.getElementById('generate-btn')
-let pin = document.getElementById('pin-box')
+const generatePin = document.getElementById('generate-btn')
+const pin = document.getElementById('pin-box')
+const tryNum = document.getElementById('try')
+const notMatched = document.getElementById('dont-match-msg')
+const matched = document.getElementById('match-msg')
+const screen = document.getElementById('pin-screen')
+const button = document.querySelectorAll('.button')
+const submitBtn = document.querySelector('.submit-btn')
+
+
 generatePin.addEventListener('click', () => {
     let random = Math.round(1000 + Math.random() * 9000)
     pin.value = random
+
+    tryNum.innerHTML = 3
+
+    screen.value = ''
+
+    submitBtn.classList.remove('disabledbtn')
+    for (item of button)
+        item.classList.remove('disabledbtn')
+
 })
 
 // pin matching section
-let screen = document.getElementById('pin-screen')
-button = document.querySelectorAll('.button')
+
 //let screenText = '';
 for (items of button) {
     items.addEventListener('click', function (e) {
@@ -27,3 +43,19 @@ for (items of button) {
         }
     })
 }
+
+submitBtn.addEventListener('click', e => {
+    if (screen.value === pin.value) {
+        matched.style.display = 'block'
+        notMatched.style.display = 'none'
+    } else {
+        notMatched.style.display = 'block'
+        matched.style.display = 'none'
+        tryNum.innerHTML > 0 && (tryNum.innerHTML -= 1)
+        if (tryNum.innerHTML === '0') {
+            e.target.classList.add('disabledbtn')
+            for (item of button)
+                item.classList.add('disabledbtn')
+        }
+    }
+})
