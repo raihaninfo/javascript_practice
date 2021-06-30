@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
 }
+
 body {
     background: #10101B;
     height: 100vh;
     overflow-x: hidden;
 }
+
 .container {
     margin-top: 30px;
 }
@@ -16,6 +18,7 @@ body {
     padding: 30px;
     text-align: center;
 }
+
 .generate-btn{
     margin-top: 140px;
     width: 180px;
@@ -28,6 +31,7 @@ body {
     font-size: 20px;
     text-align: center;
 }
+
 .generate-btn:focus{
     outline: none;
     box-shadow: none;
@@ -43,11 +47,13 @@ input[type='text']{
     height: 50px;
     padding: 10px;
 }
+
 input[type='text']:focus {
     background-color: #3D4153;
     color: #fff;
     font-size: 20px;
 }
+
 .numbers {
     margin: 30px 0;
 }
@@ -85,6 +91,7 @@ cursor: pointer;
 .blink-me {
 color: #E0B612;
 }
+
 .submit-btn {
     border: none;
     margin-top: 20px;
@@ -93,6 +100,7 @@ color: #E0B612;
     background: #495BC3;
     color: #fff;
 }
+
 .notify {
     color: #fff;
     text-align: center;
@@ -103,14 +111,17 @@ color: #E0B612;
     padding: 5px 20px;
     display: none;
 }
+
 .notify-section{
     width: 35%;
     margin: 0 auto;
 }
+
 .action-left {
     color: #FF3C5F;
     margin-top: 10px;
 }
+
 .disabled-btn {
     background: #2e3947;
     pointer-events: none;
