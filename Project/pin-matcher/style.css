@@ -4,6 +4,7 @@
 body {
     background: #10101B;
     height: 100vh;
+    overflow-x: hidden;
 }
 .container {
     margin-top: 30px;
