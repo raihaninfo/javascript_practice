@@ -66,22 +66,22 @@ input[type='text']:focus {
 }
 
 .calc-button-row {
-width: 100%;
+    width: 100%;
 }
 
 .button {
-width: 20%;
-background: #425062;
-color: #fff;
-padding: 20px 0;
-margin: 5px;
-display: inline-block;
-font-size: 25px;
-text-align: center;
-vertical-align: middle;
-margin-right: -4px;
-border-radius: 10px;
-cursor: pointer;
+    width: 20%;
+    background: #425062;
+    color: #fff;
+    padding: 20px 0;
+    margin: 5px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: -4px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .button:focus {
@@ -89,7 +89,7 @@ cursor: pointer;
 }
 
 .blink-me {
-color: #E0B612;
+    color: #E0B612;
 }
 
 .submit-btn {
