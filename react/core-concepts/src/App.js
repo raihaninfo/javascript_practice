@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h2>This is React App</h2>
+      <h2 className="text-center">This is React App</h2>
     </div>
   );
 }
