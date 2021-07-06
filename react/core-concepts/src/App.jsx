@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { useState } from "react";
 
 function App() {
 
@@ -29,10 +29,24 @@ function Parson(props){
 }
 
 function MovieCounter(){
+ const [count, setCount] = useState(1);
+
+ const handleClick =()=>setCount(count+1);
+
   return(
     <div>
-      <p>Lorem, ipsum.</p>
+      <button onClick={handleClick}>Add Movie</button>
+      <h1>Number : {count} </h1>
+      <NumberDisplay number={count}></NumberDisplay>
+      <NumberDisplay number={count}></NumberDisplay>
+      <NumberDisplay number={count}></NumberDisplay>
     </div>
+  )
+}
+
+function NumberDisplay(props){
+  return (
+    <div>Number is : {props.number} </div>
   )
 }
 
