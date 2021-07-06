@@ -8,9 +8,9 @@ function App() {
   };
   return (
     <div className="App">
-      <Parson dis="Kushtia" name="Rubel"></Parson>
-      <Parson dis="Pabna" name="Hasan"></Parson>
-      <Parson dis="khulna" name="Ruhul Amin"></Parson>
+      <Parson job="web Developer" dis="Kushtia" name="Rubel"></Parson>
+      <Parson job="Student" dis="Pabna" name="Hasan"></Parson>
+      <Parson job="Designer" dis="khulna" name="Ruhul Amin"></Parson>
     </div>
   );
 }
@@ -23,7 +23,7 @@ function Parson(props){
 
   return (<div style={personStyle}>
     <h2>My Name Is {props.name} </h2>
-    <h3>I Im Student</h3>
+    <h3>I Im {props.job}</h3>
     <p>from : {props.dis} </p>
   </div>
 
