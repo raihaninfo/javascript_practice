@@ -2,12 +2,10 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const myName = {
-    name: "Raihan",
-    job: "Web Developer",
-  };
+
   return (
     <div className="App">
+      <MovieCounter></MovieCounter>
       <Parson job="web Developer" dis="Kushtia" name="Rubel"></Parson>
       <Parson job="Student" dis="Pabna" name="Hasan"></Parson>
       <Parson job="Designer" dis="khulna" name="Ruhul Amin"></Parson>
@@ -28,6 +26,14 @@ function Parson(props){
   </div>
 
     )
+}
+
+function MovieCounter(){
+  return(
+    <div>
+      <p>Lorem, ipsum.</p>
+    </div>
+  )
 }
 
 export default App;
