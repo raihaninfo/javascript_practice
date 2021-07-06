@@ -19,8 +19,9 @@ function App() {
           My Name is {myName.name} and i'm {myName.job}
         </h2>
         <a className="App-link" href="/" rel="noopener noreferrer">
-          Learn React
+          Learn React,
         </a>
+        <p>i'm learning react js</p>
       </header>
     </div>
   );
