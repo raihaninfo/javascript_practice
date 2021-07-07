@@ -2,13 +2,14 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
+  const myName = ['Raihan', 'Hasan', 'Mahmud', 'Ruhul Amin']
 
   return (
     <div className="App">
       <MovieCounter></MovieCounter>
-      <Parson job="web Developer" dis="Kushtia" name="Rubel"></Parson>
-      <Parson job="Student" dis="Pabna" name="Hasan"></Parson>
-      <Parson job="Designer" dis="khulna" name="Ruhul Amin"></Parson>
+      {
+        myName.map(name=><Parson name={name}></Parson>)
+      }
     </div>
   );
 }
@@ -20,7 +21,7 @@ function Parson(props){
   };
 
   return (<div style={personStyle}>
-    <h2>My Name Is {props.name} </h2>
+    <h2>My Name is {props.name} </h2>
     <h3>I Im {props.job}</h3>
     <p>from : {props.dis} </p>
   </div>
