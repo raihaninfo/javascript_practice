@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
      {
-     user.map(user =><PersionInfo name={user.name} username={user.username} email={user.email} ></PersionInfo>)
+     user.map(user =><PersionInfo name={user.name} key= {user.id} username={user.username} email={user.email} ></PersionInfo>)
      }
     </div>
   );
