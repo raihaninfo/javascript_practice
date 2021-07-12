@@ -2,6 +2,9 @@ import React from "react";
 
 const Navbar = (props) => {
 
+  console.log(props)
+  const { name, productBy, seller } = props.products;
+
 
 
   return (
@@ -16,25 +19,13 @@ const Navbar = (props) => {
             aria-expanded="false"
             aria-controls="a"
           >
-            কুরবানী কার উপর ওয়াজিব হয়?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.?
           </p>
         </h2>
 
         <div className="collapse" id="a">
           <div className="card card-body">
-            প্রাপ্তবয়ষ্ক, সুস্থমস্তিষ্কসম্পন্ন প্রত্যেক মুসলমান নর-নারী মুকীম
-            ব্যক্তি, যে ১০ যিলহজ্ব সুবহে সাদিক থেকে ১২ যিলহজ্ব সূর্যাস্ত পর্যন্ত
-            সময়ের মধ্যে প্রয়োজন অতিরিক্ত নেসাব পরিমাণ সম্পদের মালিক হবে তার
-            উপর কুরবানী করা ওয়াজিব হবে। নেসাব হল : স্বর্ণের ক্ষেত্রে সাড়ে সাত
-            (৭.৫) ভরি। আর রুপার ক্ষেত্রে সাড়ে বায়ান্ন (৫২.৫) ভরি। আর অন্যান্য
-            বস্ত্তর ক্ষেত্রে সাড়ে বায়ান্ন ভরি রুপার সমমূল্যের সম্পদ। স্বর্ণ বা
-            রুপার কোনো একটি যদি পৃথকভাবে নেসাব পরিমাণ না হয় তবে স্বর্ণ-রুপা
-            উভয়টি মিলে কিংবা এর সাথে প্রয়োজন-অতিরিক্ত অন্য বস্ত্তর মূল্য মিলে
-            সাড়ে বায়ান্ন ভরি রুপার সমমূল্যের হয়ে যায় সেক্ষেত্রেও কুরবানী
-            ওয়াজিব হবে। স্বর্ণ-রুপার অলঙ্কার, নগদ অর্থ, যে জমি বাৎসরিক খোরাকীর
-            জন্য প্রয়োজন হয় না এবং প্রয়োজন অতিরিক্ত আসবাবপত্র-এ সবই কুরবানীর
-            নেসাবের ক্ষেত্রে হিসাবযোগ্য। -বাদায়েউস সানায়ে ৪/১৯৬,আলমুহীতুল
-            বুরহানী ৮/৪৫৫; ফাতাওয়া তাতারখানিয়া ১৭/৪০৫
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi, debitis placeat rem ipsam ea id veritatis similique dolore perferendis alias, pariatur earum quibusdam. Iure labore dolorem ex quis quidem.
           </div>
         </div>
       </div>
