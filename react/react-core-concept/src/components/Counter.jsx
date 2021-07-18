@@ -4,7 +4,8 @@ class Counter extends Component {
     constructor(props){
         super(props)
         this.state={
-            count: 1
+            count: 1,
+            color: 'black'
         }
     }
 
@@ -12,6 +13,19 @@ class Counter extends Component {
         this.setState({
             count: this.state.count -1
         })
+        if(this.state.count<=2){
+            this.setState({
+                color: 'red'
+            })
+        }else if(this.state.count>=10){
+            this.setState({
+                color: 'green'
+            })
+        }else{
+            this.setState({
+                color: 'black'
+            })
+        }
     }
     increase = ()=>{
         this.setState({
@@ -22,7 +36,7 @@ class Counter extends Component {
     render() {
         return (
             <div>
-                <h1><button onClick={this.decrease}> - </button> <span>{this.state.count}</span><button onClick={this.increase}>+</button></h1>
+                <h1 style={{color: this.state.color}}><button onClick={this.decrease}> - </button> <span>{this.state.count}</span><button onClick={this.increase}>+</button></h1>
             </div>
         );
     }
