@@ -6,10 +6,6 @@ class EventHandeling extends Component {
         name: ''
     }
 
-    clickHandling= (e)=>{
-        console.log(e);
-    }
-
     inputHendler = (ev)=>{
         this.setState({
             name: ev.target.value
@@ -19,9 +15,8 @@ class EventHandeling extends Component {
     render() {
         return (
             <div>
-                <input onChange={this.inputHendler} type="text" name="" id="" />
-                <button className="btn btn-primary" onClick={this.clickHandling}>Click Me</button>
-                <p>Hello {this.state.name}</p>
+                <input className='form-control' onChange={this.inputHendler} type="text" />
+                <p>{this.state.name}</p>
             </div>
         );
     }
