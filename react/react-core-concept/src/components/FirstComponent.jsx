@@ -6,7 +6,7 @@ class FirstComponent extends Component{
         return (
             <div>
                 <h2>My name is {this.props.name}</h2>
-                <p>i'm web developer</p>
+                <p>i'm web Developer</p>
             </div>
         )
     }
