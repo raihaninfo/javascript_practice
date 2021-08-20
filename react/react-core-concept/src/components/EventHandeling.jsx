@@ -11,7 +11,7 @@ class EventHandeling extends Component {
             name: ev.target.value
         })
     }
-
+    
     render() {
         return (
             <div>
