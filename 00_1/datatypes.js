@@ -16,39 +16,37 @@
 
 */
 //********* */ number datatype***********
-var num1 = 23
-var num2 = 3.4
+var num1 = 23;
+var num2 = 3.4;
 
-console.log(num1+num2)
+console.log(num1 + num2);
 // infinity
-console.log(1/0)
-// NaN 
-console.log("Abc" * 44)
-
+console.log(1 / 0);
+// NaN
+console.log("Abc" * 44);
 
 // *******string datatype**********
-var name = "Md Abu Raihan"
-var name2 = 'Raihan'
-var name3 = `Md Abu Raihan`
-var str1 = String(40)
+var name = "Md Abu Raihan";
+var name2 = "Raihan";
+var name3 = `Md Abu Raihan`;
+var str1 = String(40);
 
-console.log(name2, str1)
+console.log(name2, str1);
 
 // *******boolean datatype**********
 
-var b1 = true
-var b2 = false
-var b3 = Boolean(true)
+var b1 = true;
+var b2 = false;
+var b3 = Boolean(true);
 
-console.log(b1, b2, b3)
-
+console.log(b1, b2, b3);
 
 // *******Null and undefined datatype**********
 
-var Abc
-var xyz = null
+var Abc;
+var xyz = null;
 
-console.log(Abc, xyz)
+console.log(Abc, xyz);
 
-var hex = 0xff
-console.log(hex)
+var hex = 0xff;
+console.log(hex);

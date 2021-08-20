@@ -1,5 +1,5 @@
-console.log("hello world !")
+console.log("hello world !");
 
-var num1 =10 +(20/3)
+var num1 = 10 + 20 / 3;
 
-console.log(num1)
+console.log(num1);

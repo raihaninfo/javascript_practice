@@ -1,8 +1,8 @@
-var name = ""
+var name = "";
 
-var fullname = name || "Raihan"
-console.log(fullname)
+var fullname = name || "Raihan";
+console.log(fullname);
 
-var isOk =true
+var isOk = true;
 
-isOk && console.log("Everything is ok")
+isOk && console.log("Everything is ok");
