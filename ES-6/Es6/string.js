@@ -4,7 +4,7 @@
 //         ljsdf las fd
 //     lsdf lf `
 
-console.log(str);
+// console.log(str);
 
 let age = 22;
 let myName = "Md Abu Raihan";

@@ -28,3 +28,13 @@ obj.print();
 let number = (one, two) => one + two;
 
 console.log(number(21, 22));
+
+let javascript = {
+  name: "javascript",
+  libraries: ["React", "Angular", "Vue"],
+  printLibraries: function () {
+    this.libraries.forEach((a) => console.log(`${this.name} love ${a}`));
+  },
+};
+
+javascript.printLibraries()
