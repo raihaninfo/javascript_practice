@@ -24,3 +24,7 @@ let obj = {
 };
 
 obj.print();
+
+let number = (one, two) => one + two;
+
+console.log(number(21, 22));
