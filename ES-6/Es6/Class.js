@@ -7,12 +7,19 @@ class User {
   // method
   printMethod() {
     console.log(this.id + " " + this.name);
+    return this;
+  }
+}
+
+// inheritance
+class Admin extends User {
+  constructor() {
+    super();
+    console.log("Admin");
   }
 }
 
 let user1 = new User(1, "Raihan");
-
-let user2 = new User(2, "Mahmud Hasan");
+let admin = new Admin();
 
 user1.printMethod();
-user2.printMethod();
