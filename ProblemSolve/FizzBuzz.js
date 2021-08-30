@@ -18,4 +18,4 @@ function FizzBuzz(input) {
   }
 }
 
-FizzBuzz(2);
+FizzBuzz(10);
