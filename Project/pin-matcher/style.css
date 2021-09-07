@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -19,7 +19,7 @@ body {
     text-align: center;
 }
 
-.generate-btn{
+.generate-btn {
     margin-top: 140px;
     width: 180px;
     padding: 50px;
@@ -32,12 +32,12 @@ body {
     text-align: center;
 }
 
-.generate-btn:focus{
+.generate-btn:focus {
     outline: none;
     box-shadow: none;
 }
 
-input[type='text']{
+input[type='text'] {
     background-color: #3D4153;
     padding: 10px 0px;
     color: #ffffff;
@@ -112,7 +112,7 @@ input[type='text']:focus {
     display: none;
 }
 
-.notify-section{
+.notify-section {
     width: 35%;
     margin: 0 auto;
 }
