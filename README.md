@@ -1,8 +1,8 @@
-# javascript practice.
+# javascript practice
 
 # Javascript All You Need to Know
 
-## This Repo only for javascript pactice.
+## This Repo only for javascript pactice
 
 [![Facebook-Page][facebook-shield]][facebook-url]
 [![Instagram][instagram-shield]][instagram-url]
