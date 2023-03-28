@@ -1,5 +1,6 @@
 <script>
   import Counter from "./components/Counter.svelte";
+  import Popup from "./components/Popup.svelte";
 
   let name = "world";
 </script>

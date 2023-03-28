@@ -10,6 +10,9 @@
       num -= 1;
     }
   };
+  let reset = () => {
+    num = 0;
+  };
 </script>
 
 <div>
@@ -17,4 +20,5 @@
   <h3>Current Number is {num}</h3>
   <button on:click={increment}>Increment</button>
   <button on:click={decrement}>Decrement</button>
+  <button on:click={reset}>Reset</button>
 </div>
